@@ -5,6 +5,7 @@ def fart():
     print('wind')
     print('fly away')
     print('smelly pants')
+    print("hello")
 
 
 
