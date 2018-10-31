@@ -22,8 +22,11 @@ from eat_ice_cream import eat_ice_cream
 # TODO: Take the flavour and print a message!
 eat_ice_cream('Chocolate')
 
-# TODO: Fry the eggs and print a message!
-fry('eggs')
+def fry():
+    food = input("What food would you like to fry? ")
+    print("your {} have been fried!".format(food))
+
+fry()
 
 # TODO: Fly to the moon and print a message!
 fly('moon')
