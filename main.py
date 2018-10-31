@@ -2,6 +2,8 @@ from spook import spook
 
 spook('Pete')
 
+random_fact()
+
 
 # TODO: Take the name and print a message!
 tell_my_name('Ghosty')
