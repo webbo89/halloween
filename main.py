@@ -18,6 +18,7 @@ buy_groceries(['milk', 'eggs', 'hairspray'])
 # TODO: Print a message!
 fart()
 
+from eat_ice_cream import eat_ice_cream
 # TODO: Take the flavour and print a message!
 eat_ice_cream('Chocolate')
 
