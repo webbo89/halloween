@@ -1,4 +1,5 @@
 from spook import spook
+from Age import tell_my_age
 
 spook('Pete')
 
