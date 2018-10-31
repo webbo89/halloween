@@ -1,5 +1,4 @@
 from spook import spook
-from georgia import fart
 
 spook('Pete')
 
@@ -17,16 +16,17 @@ walk_the_dog('geoff')
 buy_groceries(['milk', 'eggs', 'hairspray'])
 
 # TODO: Print a message!
+from georgia import fart
 fart()
 
 from eat_ice_cream import eat_ice_cream
 # TODO: Take the flavour and print a message!
 eat_ice_cream('Chocolate')
 
-def fry():
-    food = input("What food would you like to fry? ")
-    print("your {} have been fried!".format(food))
 
+
+
+from fry import fry
 fry()
 
 # TODO: Fly to the moon and print a message!
@@ -36,4 +36,5 @@ fly('moon')
 feed_the_dog('dogfood')
 
 # TODO: Take your medicine!
+from medicine import take_medicine
 take_medicine('flu')
