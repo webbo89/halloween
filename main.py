@@ -1,4 +1,5 @@
 from spook import spook
+from buygroceries import buy_groceries
 
 spook('Pete')
 
