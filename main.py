@@ -1,4 +1,5 @@
 from spook import spook
+from georgia import fart
 
 spook('Pete')
 
