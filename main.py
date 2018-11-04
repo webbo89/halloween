@@ -1,5 +1,7 @@
 from spook import spook
+from buygroceries import buy_groceries
 from Age import tell_my_age
+
 
 spook('Pete')
 
