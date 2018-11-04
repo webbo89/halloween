@@ -1,5 +1,7 @@
 from spook import spook
 from buygroceries import buy_groceries
+from Age import tell_my_age
+
 
 spook('Pete')
 
@@ -17,13 +19,18 @@ walk_the_dog('geoff')
 buy_groceries(['milk', 'eggs', 'hairspray'])
 
 # TODO: Print a message!
+from georgia import fart
 fart()
 
+from eat_ice_cream import eat_ice_cream
 # TODO: Take the flavour and print a message!
 eat_ice_cream('Chocolate')
 
-# TODO: Fry the eggs and print a message!
-fry('eggs')
+
+
+
+from fry import fry
+fry()
 
 # TODO: Fly to the moon and print a message!
 fly('moon')
@@ -32,4 +39,5 @@ fly('moon')
 feed_the_dog('dogfood')
 
 # TODO: Take your medicine!
+from medicine import take_medicine
 take_medicine('flu')
