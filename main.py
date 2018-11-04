@@ -5,7 +5,8 @@ spook('Pete')
 
 
 # TODO: Take the name and print a message!
-# tell_my_name('Ghosty')
+from tell_my_name import tell_my_name
+tell_my_name('Ghosty')
 
 # TODO: Take the age and print a message!
 tell_my_age(1319231212)
